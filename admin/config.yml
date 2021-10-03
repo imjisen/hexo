@@ -58,15 +58,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: repository-index.md
-        label: Repositories
-        file: source\repository\index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: about-index.md
         label: ''
         file: source\about\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: repository-index.md
+        label: Repositories
+        file: source\repository\index.md
         editor:
           preview: true
         fields: *ref_0
@@ -88,15 +88,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: mylist-index.md
-        label: ''
-        file: source\mylist\index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: artitalk-index.md
         label: 说说
         file: source\artitalk\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: mylist-index.md
+        label: ''
+        file: source\mylist\index.md
         editor:
           preview: true
         fields: *ref_0

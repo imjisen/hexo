@@ -119,8 +119,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
         <a class="title flat-box" target="_self" href='/'>
           
+            <img no-lazy class='logo' src='https://cdn.jsdelivr.net/gh/imjisen/myfiles@master/ic1.png'/>
           
-            <i class='https://cdn.jsdelivr.net/gh/imjisen/myfiles@master/ic1.png'></i>
           
           
         </a>
@@ -341,7 +341,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="l_cover">
   
     
-        <div id="full" class='cover-wrapper artitalk search' style="display: none;">
+        <div id="full" class='cover-wrapper artitalk featured' style="display: none;">
           
             <div class='cover-bg lazyload placeholder' data-bg="https://cdn.jsdelivr.net/gh/imjisen/myfiles@master/solen-feyissa-HL6QFEK2nOg-unsplash.jpg"></div>
           
@@ -349,19 +349,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class='top'>
     
     
-      <p class="title">I am Jisen</p>
+      <p class="title">Jisen - A Small Blog.</p>
     
     
   </div>
   <div class='bottom'>
-    
-      <div class="m_search">
-        <form name="searchform" class="form u-search-form">
-          <input type="text" class="input u-search-input" placeholder="Find something awesome..." />
-          <i class="icon fas fa-search fa-fw"></i>
-        </form>
-      </div>
-    
     <div class='menu navigation'>
       <div class='list-h'>
         
@@ -370,35 +362,35 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
               
               id="home">
-              <p>博客</p>
+              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg'><p>博客</p>
             </a>
           
             <a href="/categories/"
               
               
               id="categories">
-              <p>分类</p>
+              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg'><p>分类</p>
             </a>
           
             <a href="/archieves/"
               
               
               id="archieves">
-              <p>归档</p>
+              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg'><p>归档</p>
             </a>
           
             <a target="_blank" rel="noopener" href="https://imjisen.herokuapp.com/"
               
               
               id="https:imjisenherokuappcom">
-              <p>网盘</p>
+              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg'><p>网盘</p>
             </a>
           
             <a href="/about/"
               
               
               id="about">
-              <p>关于</p>
+              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg'><p>关于</p>
             </a>
           
         
@@ -1257,7 +1249,7 @@ var loadCSS = function( href, before, media, attributes ){
       path = defaultPath || decodeURI(window.location.pathname);
     }
     var valine = new Valine();
-    valine.init(Object.assign({"path":null,"placeholder":"Leave your thoughts behind~","appId":"5bkmXmOLscNnz3Nk3nNGRdNn-MdYXbMMI","appKey":"KjkslJoy1EpJOyDRuOlN0Ek6","meta":["nick","mail","link"],"requiredFields":["nick","mail"],"enableQQ":true,"recordIP":false,"avatar":"robohash","pageSize":10,"lang":"zh-cn","highlight":true,"mathJax":false}, {
+    valine.init(Object.assign({"path":null,"placeholder":"Leave your thoughts behind~","appId":"5bkmXmOLscNnz3Nk3nNGRdNn-MdYXbMMI","appKey":"KjkslJoy1EpJOyDRuOlN0Ek6","meta":["nick","mail","link"],"requiredFields":["nick","mail"],"enableQQ":true,"recordIP":false,"avatar":"retro","pageSize":10,"lang":"zh-cn","highlight":true,"mathJax":false}, {
       el: '#valine_container',
       path: path,
       placeholder: pagePlaceholder,
@@ -1304,8 +1296,6 @@ function listenSearch(){
 }
 function setSearchService() {
 	listenSearch();
-	
-		document.addEventListener("pjax:success", listenSearch);
 	
 }
 </script>
