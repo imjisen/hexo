@@ -58,24 +58,6 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: about-index.md
-        label: ''
-        file: source\about\index.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: repository-index.md
-        label: Repositories
-        file: source\repository\index.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: categories-index.md
-        label: 所有分类
-        file: source\categories\index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: links-index.md
         label: 朋友
         file: source\links\index.md
@@ -85,6 +67,24 @@ collections:
       - name: tags-index.md
         label: 所有标签
         file: source\tags\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: categories-index.md
+        label: 所有分类
+        file: source\categories\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: about-index.md
+        label: ''
+        file: source\about\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: repository-index.md
+        label: Repositories
+        file: source\repository\index.md
         editor:
           preview: true
         fields: *ref_0
