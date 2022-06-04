@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>好用的标记文本转换工具 - Pandoc</title>
+      <link href="//post/pandoc.html"/>
+      <url>//post/pandoc.html</url>
+      
+        <content type="html"><![CDATA[<div class="note"><p>link green::note link green 官方网站：[<a href="http://www.pandoc.org]">www.pandoc.org]</a></p></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Gokiee Wards</title>
       <link href="//post/GOKIEE%20WARDS.html"/>
       <url>//post/GOKIEE%20WARDS.html</url>
